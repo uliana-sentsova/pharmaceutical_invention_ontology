@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Active_Ingredient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Active_Ingredient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Adverse_Effect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Adverse_Effect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Drug_Effect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Age">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Other_Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Australian_Approved_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Australian_Approved_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Country-Specific_Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Brand_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Brand_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Britisch_Approved_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Britisch_Approved_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Country-Specific_Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Chemical_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Chemical_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Nonproprietary_Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Country-Specific_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Country-Specific_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Nonproprietary_Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Denominazione_Comune_Italiana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Denominazione_Comune_Italiana">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Country-Specific_Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Disorder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Disorder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Medical_Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Drug-Induced_Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Drug-Induced_Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Drug_Effect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Drug_Effect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Drug-Induced_Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Dénomination_Commune_Française -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Dénomination_Commune_Française">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Country-Specific_Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Excipient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Excipient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Substance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#IUPAC_name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#IUPAC_name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Chemical_Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#International_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#International_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Nonproprietary_Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#International_Nonproprietary_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#International_Nonproprietary_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#International_Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Japanese_Accepted_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Japanese_Accepted_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Country-Specific_Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Lactation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Lactation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Other_Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Medical_Condition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Medical_Condition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Modified_International_Nonproprietary_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Modified_International_Nonproprietary_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#International_Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Nonproprietary_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Nonproprietary_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Combination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Combination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Composition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Composition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Composition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Compound -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Compound">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Drug_Delivery_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Drug_Delivery_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Composition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Formulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Formulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Composition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Mode_of_Production -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Mode_of_Production">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Pharmaceutical_Invention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Pharmaceutical_Invention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Use -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Novel_Use">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Pharmaceutical_Invention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Other_Condition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Other_Condition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Medical_Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Pharmaceutical_Composition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Pharmaceutical_Composition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Pharmaceutical_Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Pharmaceutical_Invention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Pharmaceutical_Invention"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Pharmaceutical_Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Pharmaceutical_Product"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Other_Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Resistance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Resistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Drug-Induced_Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Single_Drug_Preparation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Single_Drug_Preparation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Pharmaceutical_Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Substance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Substance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Therapeutic_Effect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Therapeutic_Effect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Drug_Effect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#United_States_Adopted_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#United_States_Adopted_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ulyanasidorova/ontologies/2017/4/untitled-ontology-10#Country-Specific_Name"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
